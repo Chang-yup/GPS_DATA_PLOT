@@ -12,7 +12,9 @@ You can see animated GPS trajectory on matlab.
 
 3. Run it.
 
-If you don't want to see animation, you can annotate out the 'Animated Plot'. And uncomment 'Plot'. You will see whole trajectory.
+If you don't want to see animation, You can see whole trajectory only.
+
+Comment out the 'Animated Plot' and uncomment 'Plot'. You will see whole trajectory.
 
 # Description
 GPS_NMEA_DATA_PLOT : Main matlab code.
