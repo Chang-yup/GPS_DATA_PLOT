@@ -6,9 +6,9 @@ You can see animated GPS trajectory on matlab.
 
 # How to use
 
-1. Load your GPS log on GPS_NMEA_DATA_PLOT.m
+1. Load your GPS log on matlab.
 
-2. Change 'fileID = fopen('INCH-RTCM32_TEST.log');' into 'fileID = fopen('your_log_data');'
+2. Change 'fileID = fopen('INCH-RTCM32_TEST.log');' into 'fileID = fopen('your_GPS_log');'
 
 3. Run it.
 
