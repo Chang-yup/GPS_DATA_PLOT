@@ -1,13 +1,7 @@
 # GPS_NMEA_PLOT
 plotting GPS NMEA Data by matlab
 
-You can see GPS trajectory on matlab.
-
-
-# Description
-GPS_NMEA_DATA_PLOT : Main matlab code.
-
-INCH-RTCM32_TEST.log : GPS log file I used.
+You can see animated GPS trajectory on matlab.
 
 
 # How to use
@@ -17,3 +11,10 @@ INCH-RTCM32_TEST.log : GPS log file I used.
 2. Change 'fileID = fopen('INCH-RTCM32_TEST.log');' into 'fileID = fopen('your_log_data');'
 
 3. Run it.
+
+If you don't want to see animation, you can annotate out the 'Animated Plot'. And uncomment 'Plot'. You will see whole trajectory.
+
+# Description
+GPS_NMEA_DATA_PLOT : Main matlab code.
+
+INCH-RTCM32_TEST.log : GPS log file I used.
