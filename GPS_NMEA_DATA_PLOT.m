@@ -52,7 +52,7 @@ for k=1:N_DATA
     long_raw_M2D(k)=str2double(long_cell_M(k))/60;
 end
 
-%% Conversion minuate to degree
+%% Conversion minute to degree
 lat_D = lat_raw_D + lat_raw_M2D;
 long_D = long_raw_D + long_raw_M2D;
 
