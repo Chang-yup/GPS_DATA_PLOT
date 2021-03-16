@@ -64,10 +64,10 @@ long_D = long_raw_D + long_raw_M2D;
 %% Animated plot
 
 gx = geoaxes;
-PLOT_DOT=geoplot(gx,lat_D(1),long_D(1),'-.r*')
+PLOT_DOT=geoplot(gx,lat_D(1),long_D(1),'-.r*');
 hold on
-PLOT_LINE=geoplot(gx,lat_D(1),long_D(1),'g')
-geobasemap(gx,'satellite')
+PLOT_LINE=geoplot(gx,lat_D(1),long_D(1),'g');
+geobasemap(gx,'satellite');
 Realtime = title(' ');
 
 
@@ -78,6 +78,6 @@ for k=1:N_DATA
     set(PLOT_DOT,'YData',long(k));
     set(PLOT_LINE,'XData',lat);
     set(PLOT_LINE,'YData',long);
-    set(Realtime, 'String', sprintf('GMT : %02.f:%02.f:%02f',time_raw_H(k),time_raw_M(k),time_raw_S(k) ))
+    set(Realtime, 'String', sprintf('GMT : %02.f:%02.f:%02.f',time_raw_H(k),time_raw_M(k),time_raw_S(k) ));
     drawnow
 end
