@@ -57,6 +57,28 @@ lat_D = lat_raw_D + lat_raw_M2D;
 long_D = long_raw_D + long_raw_M2D;
 
 %% Geo plot
+% gx = geoaxes;
+% PLOT=geoplot(gx,lat_D,long_D,'-.r*')
+% geobasemap(gx,'satellite')
+
+%% Animated plot
+
 gx = geoaxes;
-geoplot(gx,lat_D,long_D,'-o')
+PLOT_DOT=geoplot(gx,lat_D(1),long_D(1),'-.r*')
+hold on
+PLOT_LINE=geoplot(gx,lat_D(1),long_D(1),'g')
+% axis()
 geobasemap(gx,'satellite')
+Realtime = title(' ');
+
+
+for k=1:N_DATA
+    lat(k) = lat_D(k);
+    long(k) = long_D(k);
+    set(PLOT_DOT,'XData',lat(k));
+    set(PLOT_DOT,'YData',long(k));
+    set(PLOT_LINE,'XData',lat);
+    set(PLOT_LINE,'YData',long);
+    set(Realtime, 'String', sprintf('GMT : %2.f시 %2.f분 %2.2f초',time_raw_H(k),time_raw_M(k),time_raw_S(k) ))
+    drawnow
+end
