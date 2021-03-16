@@ -20,6 +20,10 @@ https://youtu.be/MYm6fZWJfCk
 If you don't want to see animation, You can see whole trajectory at first. Comment out the 'Animated Plot' and uncomment 'Plot'.
 
 # Description
+Checksum will be updated.
+
 GPS_NMEA_DATA_PLOT : Main matlab code.
 
 INCH-RTCM32_TEST.log : GPS log file I used.
+
+
