@@ -1,5 +1,5 @@
 # GPS_DATA_PLOT
-plotting GPS NMEA Data on matlab
+Plotting GPS NMEA Data on MATLAB
 
 You can see animated GPS trajectory on matlab.
 
