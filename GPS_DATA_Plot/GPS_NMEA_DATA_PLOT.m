@@ -67,7 +67,6 @@ gx = geoaxes;
 PLOT_DOT=geoplot(gx,lat_D(1),long_D(1),'-.r*')
 hold on
 PLOT_LINE=geoplot(gx,lat_D(1),long_D(1),'g')
-% axis()
 geobasemap(gx,'satellite')
 Realtime = title(' ');
 
