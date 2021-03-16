@@ -6,7 +6,7 @@ You can see GPS trajectory on matlab.
 
 # Description
 GPS_NMEA_DATA_PLOT : Main matlab code.
-INCH-RTCM32_TEST.log : The GPS log file I used.
+INCH-RTCM32_TEST.log : GPS log file I used.
 
 
 # How to use
