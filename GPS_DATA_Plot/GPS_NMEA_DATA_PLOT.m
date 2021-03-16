@@ -78,6 +78,6 @@ for k=1:N_DATA
     set(PLOT_DOT,'YData',long(k));
     set(PLOT_LINE,'XData',lat);
     set(PLOT_LINE,'YData',long);
-    set(Realtime, 'String', sprintf('GMT : %2.f h %2.f m %2.2f s',time_raw_H(k),time_raw_M(k),time_raw_S(k) ))
+    set(Realtime, 'String', sprintf('GMT : %02.f:%02.f:%02f',time_raw_H(k),time_raw_M(k),time_raw_S(k) ))
     drawnow
 end
