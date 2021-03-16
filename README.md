@@ -10,7 +10,7 @@ You can see animated GPS trajectory on matlab.
 
 2. Change 'fileID = fopen('INCH-RTCM32_TEST.log');' into 'fileID = fopen('your_GPS_log');'
 
-3. You may change your device identifier 'tline=extractBetween(tline,'GNGGA',',,');' ex) GNGGA -> GPGGA or else
+3. You may change your device identifier 'tline=extractBetween(tline,'GNGGA',',,');' ex) 'GNGGA' -> 'GPGGA' or else
 
 4. Run it.
 
