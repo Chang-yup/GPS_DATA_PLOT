@@ -17,7 +17,7 @@ https://youtu.be/MYm6fZWJfCk
 
 4. Run it.
 
-If you don't want to see animation, You can see whole trajectory at first. Comment out the 'Animated Plot' and uncomment 'Plot'.
+If you don't want to see animation, You can see whole trajectory at first. Comment out the 'Animated Plot' and uncomment 'Geo Plot'.
 
 # Description
 Checksum will be updated.
